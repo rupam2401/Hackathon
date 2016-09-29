@@ -1,0 +1,22 @@
+
+IBM Bluemix tools used:
+Twitter Insights
+AlchemyAPI
+DashDB
+
+
+For trial and presentation purpose the test company consider is: Reliance Comunication
+
+Raw Data Collected using web crawller and Twitter Insights. 
+
+The news articles collected by the crawler is used to perform the sentiment analysis using AlchemyAPI.
+
+The whole model was then uploaded to dash dp for cleaning and filling empty values.
+
+The training data takes information of 3 month period in time axis. Linear correlation between News artical sentiments for a given date, 
+Twitter sentiments for a lag of 4-7 days after publication of article and NSE data for the given time is established. 
+
+The prediction modal then make use of the whole data frame to predtict the future movement in stock market.
+
+Regards
+-Rupam R. Sawant
